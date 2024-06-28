@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+	.element-center {
+		@apply flex justify-center items-center;
+	}
+}
+
+.logo {
+	font-family: "Dancing Script", cursive;
+}
+
+.tooText::before {
+	content: "";
+	position: absolute;
+	left: 45%;
+	top: -3%;
+	/* transform: translateX(20%); */
+	transform: rotate(-45deg);
+	border: 9px solid;
+	border-color: #00a448 #00a448 #e7232300 #e7232300;
+}
+.toochat::before {
+	content: "";
+	position: absolute;
+	left: 45%;
+	top: -8%;
+	/* transform: translateX(20%); */
+	transform: rotate(-45deg);
+	border: 9px solid;
+	border-color: #00a448 #00a448 #e7232300 #ec191900;
+}
+
+.logofont {
+	font-family: "Permanent Marker", cursive;
+	/* background: hsla(186, 33%, 94%, 1);
+
+background: linear-gradient(135deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 ); */
+}
+
+.underNa {
+	box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.42);
+	-webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.42);
+	-moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.42);
+}
+
+.matches {
+	font-family: "Permanent Marker", cursive;
+}
+
+.homebg {
+	/* background: hsla(335, 91%, 70%, 1);
+
+background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F86CA7", endColorstr="#F4D444", GradientType=1 ); */
+	background: hsla(186, 33%, 94%, 1);
+
+	background: linear-gradient(
+		135deg,
+		hsla(186, 33%, 94%, 1) 0%,
+		hsla(216, 41%, 79%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		135deg,
+		hsla(186, 33%, 94%, 1) 0%,
+		hsla(216, 41%, 79%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		135deg,
+		hsla(186, 33%, 94%, 1) 0%,
+		hsla(216, 41%, 79%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
